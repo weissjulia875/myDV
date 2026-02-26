@@ -29,11 +29,11 @@ jobs:
           echo "branch=dev" >> $GITHUB_ENV
         fi
 
-    - name: Checkout code from mytv-Internal
+    - name: Checkout code from myDV-Internal
       if: github.event_name == 'workflow_dispatch'
       uses: actions/checkout@v4
       with:
-        repository: 'mytv-android/mytv-Internal'
+        repository: 'mytv-android/myDV-Internal'
         ref: ${{ env.branch }}
         fetch-depth: 0
         submodules: 'recursive'
