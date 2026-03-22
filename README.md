@@ -27,6 +27,7 @@
 
 - 如需登录，需要在设置中填写Cookie，这需要在网页端中获取。你需要登录网页端（https://www.douyin.com ），并使用Chrome插件（例如https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm ），并从插件复制登录后的所有Cookie（就举例的插件而言，点击插件，点击右下角的Export，选择以“Header String”格式导出，图文并茂教程可以参考这里的第一步和第二步https://support-orig.hubstudio.cn/7794/e1fd ）.
 - 不要在控制台使用``document.cookie``来获取，因为一些敏感Cookie不能被此方式获取到.
+- 如果以上信息未能帮助到你，你还可以参考https://github.com/mytv-android/myDV/issues/25
 
 ### 操作方式
 
