@@ -1,0 +1,13 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": {
+    "noticeId": "NOTICE_20260405_001",
+    "title": "系统更新公告",
+    "content": "1. 优化了页面加载速度；\n2. 修复已知bug；\n3. 新增功能模块。",
+    "isForce": false,
+    "showType": "popup",
+    "publishTime": "2026-04-05 12:00:00",
+    "linkUrl": ""
+  }
+}
