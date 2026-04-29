@@ -9,7 +9,7 @@
     "enabled": true,
     "id": "announcement_20240101",
     "title": "欢迎使用 myDV",
-    "content": "感谢您使用 myDV！\n\n本应用是一款抖音视频播放器，支持：\n- 推荐视频浏览\n- 直播观看\n- 弹幕显示\n- 视频搜索\n\n如有问题，请访问 GitHub 提交 Issue。",
+    "content": "感谢您使用 myDV！\n\n本应用是一款短视频视频播放器，支持：\n- 推荐视频浏览\n- 直播观看\n- 弹幕显示\n- 视频搜索\n\n如有问题，请访问 GitHub 提交 Issue。",
     "isForced": false,
     "showEveryTime": false,
     "confirmText": "我知道了",
