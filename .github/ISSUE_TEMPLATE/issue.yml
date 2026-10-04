@@ -17,7 +17,17 @@ body:
   - type: textarea
     attributes:
       label: 内容
-      description: 完整、清晰的描述你的需求，如果涉及视频播放，务必附上logcat日志（在扫码填写Cookie的网页中可导出）。请勿使用大模型（如豆包）生成大段无意义内容，否则开发者将忽略。
+      description: 完整、清晰的描述你的需求，如果涉及视频播放，务必附上logcat日志（在扫码填写Cookie的网页中可导出），请勿使用大模型（如豆包）生成大段无意义内容。开发者将忽略并关闭无法进一步处理的issue。
       placeholder: 内容描述
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      label: 我已确认所填写的内容符合以下要求，并接受或承担因胡乱填报而被关闭或封禁的结果。
+      options:
+        - label: 涉及视频播放相关的问题已附上Logcat日志
+          required: true
+        - label: 所报告的内容不属于警告中被视为垃圾信息的任何一项
+          required: true
+        - label: 所报告的内容由真人撰写（可能经过AI少量润色以使得表达清晰），没有直接使用AI起草issue。
+          required: true
