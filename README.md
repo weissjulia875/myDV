@@ -19,6 +19,8 @@
 
 通过右侧release进行下载
 
+- **配套插件**：如果需要在电脑端一键推送 Cookie 到电视，可在仓库下载配套浏览器插件 [myDV-cookie-pusher-v1.0.zip](./myDV-cookie-pusher-v1.0.zip)（解压后在 Chrome / Edge 扩展管理中以开发者模式加载扩展即可）。
+
 ### 安装
 
 可以使用我们的姊妹项目[mytv-android](https://github.com/mytv-android/mytv-android)来安装（但你需要先安装它）
@@ -53,12 +55,15 @@
     <img src="./img/QRCode.png" width="48%"/>
 </div>
 
-## 星标历史
+## Star History
 
-
-
-[![Stargazers over time](https://starchart.cc/mytv-android/myDV.svg?variant=adaptive)](https://starchart.cc/mytv-android/myDV)
-
+<a href="https://www.star-history.com/?repos=mytv-android%2Fmydv&type=date&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=mytv-android/mydv&type=date&theme=dark&legend=bottom-right" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=mytv-android/mydv&type=date&legend=bottom-right" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=mytv-android/mydv&type=date&legend=bottom-right" />
+ </picture>
+</a>
 
 ## 著作权、许可证声明和致谢
 
